@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 30px auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 2px;
+}
+@media (max-width:500px) {
+.container{
+    width: 300px;
+flex-direction: column;
+
+    
+
+}
